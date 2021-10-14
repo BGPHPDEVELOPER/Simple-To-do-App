@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+* { box-sizing:border-box; }
+html {
+
+    background-color:#fafafa;
+    padding:6px;
+}
+body {
+
+    max-width:350px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+}
+header,main,footer {
+
+    display:flex;
+    flex-direction: column;
+}
+.container {
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title {
+
+    color:#999999;
+
+}
+.counter {
+
+    font-size:0.6rem;
+    margin-top:5px;
+    color:#cccccc;
+    font-weight: bold;
+}
+#storage-list {
+
+    display:flex;
+    flex-direction: column;
+    margin-top:6px;
+}
+#garbage-list {
+
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    margin-top:6px;
+    padding:11px;
+    padding-left:15px;
+    box-shadow:1px 1px 6px 1px #dcdcdc;
+}
+#deleteList {
+
+    position:absolute;
+    right:16px;
+    bottom:4px;
+    padding:4px;
+    font-size:0.6rem;
+    color:#999999;
+    cursor: pointer;
+    border:1px solid #dcdcdc;
+    border-right:none;
+    box-shadow:6px 6px 8px -6px inset #dcdcdc;    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+#deleteList:hover {
+
+    border:none;
+    border-bottom:1px solid #dcdcdc;
+}
+input[name='add'] {
+
+    padding:11px;
+    margin-bottom:25px;
+    border:0;color:#555;
+    box-shadow:6px 6px 8px -6px inset #dcdcdc;    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    font-family: 'Roboto';
+}
+.list-item {
+
+    color:#ccc;
+    display: inline-flex;
+    justify-content: space-between;
+    padding:6px;
+    margin-bottom:10px;
+    box-shadow: inset 0 0 10px #dcdcdc;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+.garbage-item {
+
+    font-size:0.9rem;
+    color:#ccc;
+    text-decoration: line-through #fff;
+    margin-top:1px;
+}
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    padding-left:6px;
+}
+#options {
+
+    display: inline-flex;
+    flex-direction: row;
+}
+#dell:hover {
+
+    color:darkred;
+}
+.date {
+
+    font-size:0.6em;
+}
+.value {
+
+    color:#999999;
+    font-size:1rem;
+}
+i {
+
+    font-size:1rem;
+    margin:auto;
+    padding-right:8px;
+}
+i:hover {
+
+    color:yellowgreen;
+}
+h1 {
+    
+    color:#dcdcdc;
+    text-shadow:1px 1px 0px #888;
+}

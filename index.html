@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='description' content='Simple To-do Application (HTML5 CSS3 JAVASCRIPT (pure)'>
+    <meta name='keywords' content='todo application,javascript,html5,css3,task manager,pure javascript todo list,javascript task manager'>
+    <meta name='author' content='Daniel Marinov - servicewebcreator@abv.bg'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Simple To-do Application</title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css' integrity='sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ' crossorigin='anonymous'>
+    <link rel='stylesheet' href='todo.css'>
+</head>
+<body>
+    <header>
+        <h1>Задачи</h1>
+        <input type='text' name='add' id='addToDo' placeholder='Какво трябва да се направи?' value=''/>
+    </header>
+    <main id='main'>
+        <div class='container'>
+            <span class='title'> Активни </span>
+            <span class='counter' id='counter-main'> </span>
+        </div>
+
+        <div id='storage-list'>
+            
+        </div>
+    </main>
+    <footer id='footer'>
+        <div class='container'>
+            <span class='title'> Завършени </span>
+            <span class='counter' id='counter-footer'></span>
+        </div>
+        <div id='garbage-list'>
+        
+            <div id='deleteList'>Изтрий Списъка</div>
+        </div>
+    </footer>
+    <script src='todo.js'></script>
+</body>
+</html>
